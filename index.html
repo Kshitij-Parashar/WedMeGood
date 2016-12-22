@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WedMeGood</title>
+    <link href="main.css" type="text/css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="pageHeader">
+    <h1>Table & Chair Assignment</h1>
+</div>
+<div id="pageContainer">
+    <div class="peopleQueue">
+        <h3>Queue:</h3>
+    <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+    <span class="name">Kshitij</span>
+    </div>
+    <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+    <span class="name">Sanjeev</span>
+    </div>
+    <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+    <span class="name">Dev</span>
+    </div>
+    <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+    <span class="name">Shashank</span>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 heightConference">
+            <div class="dropzone" style="margin-left: calc( 100% - 80px );"></div>
+            <div class="dropzone" style="margin-left: calc( 100% - 80px );"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 centerTable">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 heightConference">
+            <div class="dropzone"></div>
+            <div class="dropzone"></div>
+        </div>
+    </div>
+
+</div>
+<div id="pageFooter">Copyright &copy; 2016 Kshitij Parashar</div>
+</body>
+<script src="drag_events.js"></script>
+</html>
+
+
