@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>WedMeGood</title>
-    <link href="main.css" type="text/css" rel="stylesheet" />
+    <link href="assets/styles/main.css" type="text/css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 </head>
-<body>
+<body onload="myFunction()">
 <div id="pageHeader">
     <h1>Table & Chair Assignment</h1>
 </div>
@@ -27,22 +27,30 @@
     </div>
     <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 heightConference">
-            <div class="dropzone" style="margin-left: calc( 100% - 80px );"></div>
-            <div class="dropzone" style="margin-left: calc( 100% - 80px );"></div>
+            <div class="dropzone" style="margin-left: calc( 100% - 80px );">
+                <div class="tooltip"></div>
+            </div>
+            <div class="dropzone" style="margin-left: calc( 100% - 80px );">
+                <div class="tooltip"></div>
+            </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 centerTable">
 
         </div>
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 heightConference">
-            <div class="dropzone"></div>
-            <div class="dropzone"></div>
+            <div class="dropzone">
+                <div class="tooltip"></div>
+            </div>
+            <div class="dropzone">
+                <div class="tooltip"></div>
+            </div>
         </div>
     </div>
 
 </div>
 <div id="pageFooter">Copyright &copy; 2016 Kshitij Parashar</div>
 </body>
-<script src="drag_events.js"></script>
+<script src="scripts/drag_events.js"></script>
 </html>
 
 
