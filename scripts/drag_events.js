@@ -4,6 +4,7 @@ function myFunction() {
 
     document.addEventListener("dragstart", function (event) {
         // store a ref. on the dragged elem
+        event.dataTransfer.clearData();
         if(typeof event.target.data == 'string')
             dragged = event.target.parentNode;
         else
